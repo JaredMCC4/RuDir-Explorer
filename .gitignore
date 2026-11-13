@@ -1,0 +1,32 @@
+# Local planning and agent configuration
+/docs/
+/.agents/
+/.codex/
+/skills-lock.json
+
+# Rust build outputs; Cargo.lock remains tracked
+/target/
+**/*.rs.bk
+
+# Credentials and local environment
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Logs, backups, databases and test data
+*.log
+*.bak
+*.backup
+*.sqlite
+*.sqlite3
+*.db
+/test-data/
+/backups/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
